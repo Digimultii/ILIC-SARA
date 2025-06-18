@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+img{
+height: 300px; width: 300px
+}
+
+  @font-face {
+  font-family: 'SaraFont';
+  src: url("C:/Users/sarai/OneDrive/INFORMATIKA/ATOM/PROJEKTNI-ILIC3/TEKST/Sara_Ilic_projektni_zadatak1.ttf") format('ttf');
+}
+.naslov{
+  font-family: 'SaraFont';
+}
+.pozadina{
+  color: white;
+background-color: black;
+background-repeat: no-repeat;
+background-size: cover;
+}
+body.pozadina a {
+  color: white;
+}
+
+body.pozadina h1,
+body.pozadina h2,
+body.pozadina h3,
+body.pozadina p {
+  color: white;
+}
+.drugapozadina{
+  background-image: url("C:/Users/sarai/OneDrive/INFORMATIKA/ATOM/PROJEKTNI-ILIC3/NOVE SLIKE/crt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+a:link {
+color: black;
+padding: 5px;
+line-height: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 50px;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+  display: flex;
+  width: 20%;
+  justify-content: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkgray;
+}
+}
+@font-face {
+font-family: "SaraFont" ;
+  src: url("TEKST/Sara_Ilic_projektni_zadatak1.ttf") format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.naslov {
+  font-family: "SaraFont", sans-serif;
+}
