@@ -6,7 +6,7 @@ height: 300px; width: 300px
 
   @font-face {
   font-family: 'SaraFont';
-  src: url("C:/Users/sarai/OneDrive/INFORMATIKA/ATOM/PROJEKTNI-ILIC3/TEKST/Sara_Ilic_projektni_zadatak1.ttf") format('ttf');
+  src: url("TEKST/Sara_Ilic_projektni_zadatak1.ttf") format('ttf');
 }
 .naslov{
   font-family: 'SaraFont';
