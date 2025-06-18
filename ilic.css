@@ -17,6 +17,12 @@ background-color: black;
 background-repeat: no-repeat;
 background-size: cover;
 }
+.drugapozadina{
+  background-image: url("NOVE SLIKE/crt.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 body.pozadina a {
   color: white;
 }
@@ -27,12 +33,7 @@ body.pozadina h3,
 body.pozadina p {
   color: white;
 }
-.drugapozadina{
-  background-image: url("NOVE SLIKE/crt.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 a:link {
 color: black;
 padding: 5px;
